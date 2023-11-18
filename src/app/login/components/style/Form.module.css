@@ -1,0 +1,81 @@
+.conteiner{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #553a3a;
+    width: 414px;
+    height: 50%;
+}
+
+.form{
+    display: grid;
+    gap: 2rem;
+}
+
+.buttonEnter{
+        display: flex;
+        justify-content: center;
+        width: 8rem;
+        height: 2rem;
+        background: radial-gradient(closest-side, rgba(205, 144, 59, 0.20) 0%,rgba(52, 45, 38, 0.20) 100%), linear-gradient(to left, #342d26, #342d26);
+        border-radius: 4px;
+        border-width: 1px;
+        border-style: solid;
+        border-image: linear-gradient(180deg, rgba(207, 161, 80, 1.00) 0%,rgba(185, 143, 70, 1.00) 100%);
+        border-image-slice: 1;
+        position: relative;
+        box-shadow: inset 0px -8px 2px -6px rgba(0, 0, 0, 0.16), 0px 4px 6px -3px rgba(240, 189, 121, 0.31);
+        overflow: hidden;
+}
+
+.buttonEnter:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(9, 245, 166);
+}
+
+.buttonCreated{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height: 2rem;
+    background: radial-gradient(closest-side, rgba(205, 144, 59, 0.20) 0%,rgba(52, 45, 38, 0.20) 100%), linear-gradient(to left, #342d26, #342d26);
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, rgba(207, 161, 80, 1.00) 0%,rgba(185, 143, 70, 1.00) 100%);
+    border-image-slice: 1;
+    position: relative;
+    box-shadow: inset 0px -8px 2px -6px rgba(0, 0, 0, 0.16), 0px 4px 6px -3px rgba(240, 189, 121, 0.31);
+    overflow: hidden;
+}
+
+.buttonCreated:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(9, 245, 166);
+}
+
+
+.formEmail{
+    margin-top: 2%;
+    padding-left: 10%;
+    height:2rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.formSenha{
+    margin-top: 2%;
+    padding-left: 10%;
+    height:2rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.Container{
+    background-color: aliceblue;
+}
+
